@@ -1,6 +1,6 @@
 # Deployment guide
 
-Useful commands to retrieve docker image and deploy.
+Useful commands to retrieve docker image and deploy. To be executed in succession.
 ```bash
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.7.3/docker-compose.yaml'
 
