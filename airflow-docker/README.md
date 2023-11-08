@@ -11,7 +11,7 @@ docker-compose up airflow-init
 docker-compose up
 ```
 
-The following commands serve to check on the status of volumes, containers and execute commands with containers.
+The following commands serve to check on the status of volumes, containers and execute commands within containers.
 ```bash
 docker compose ps
 
