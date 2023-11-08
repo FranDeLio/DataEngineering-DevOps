@@ -1,8 +1,6 @@
 import statsmodels.api as sm
 import pandas as pd
 import pickle
-# Assuming you have a DataFrame 'data' with your data
-# 'cheese' and 'coca' are the column names as strings
 
 data = pd.read_csv('./data/credit_defaults.csv')
 
