@@ -1,6 +1,6 @@
 # FastAPI-Docker-MLOps Documentation
 
-The objective here was building a toy regression model to be hosted in a container and accessible via FastAPI. The model takes age, income and a loan ammount and output the probability that loan is payed back, along with a 95% predcition interval.
+The objective here was building a toy regression model to be hosted in a container and accessible via FastAPI. The model takes age, income and a loan ammount and outputs the probability that the loan is payed back, along with a 95% predcition interval.
 
 Note that first of all one should run [fit_model.py](./fit_model.py) in order to train the toy model before executing calling in docker.
 
