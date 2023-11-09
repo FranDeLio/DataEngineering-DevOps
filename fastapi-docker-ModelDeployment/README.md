@@ -9,7 +9,6 @@ Execute the following commands in succession to deploy the API within the contai
 docker build --pull --no-cache -t fastapi-docker-ml .
 docker run -d -p 8000:8000 fastapi-docker-ml
 
-
 curl --request POST --location http://localhost:8000/predict --header "Content-Type: application/json" --data '{"age":20, "income":30000, "loan":3000}'
 ```
 
